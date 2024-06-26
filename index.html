@@ -1,311 +1,651 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="zxx">
 
-<html lang="en">
 
 <head>
+
+    <!-- Metas -->
     <meta charset="utf-8">
-    <meta name="robots" content="noodp">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="Vatan journal" />
+    <meta name="description" content="Vatan - journal" />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
     <title>Vatan journal</title>
-    <!-- <link rel="shortcut icon" href="assets/favicon.ico"> -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:300,400" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/asf2525xljt.css">
-    <style>
-        
-/* general styling */
-:root {
-  --smaller: .75;
-}
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon2.ico" />
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
 
-.contain-countd {
-  align-items: center;
-  background-color: #ffd54f;
-  display: flex;
-  font-family: -apple-system, 
-    BlinkMacSystemFont, 
-    "Segoe UI", 
-    Roboto, 
-    Oxygen-Sans, 
-    Ubuntu, 
-    Cantarell, 
-    "Helvetica Neue", 
-    sans-serif;
-}
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
 
-.container {
-  color: #fff;
-  margin: 0 auto;
-  text-align: center;
-}
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
 
-h1 {
-  font-weight: normal;
-  letter-spacing: .125rem;
-  text-transform: uppercase;
-}
-
-li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-}
-
-li span {
-  display: block;
-  font-size: 4.5rem;
-}
-
-.emoji {
-  display: none;
-  padding: 1rem;
-}
-
-.emoji span {
-  font-size: 4rem;
-  padding: 0 .5rem;
-}
-
-@media all and (max-width: 768px) {
-  h1 {
-    font-size: calc(1.5rem * var(--smaller));
-  }
-  
-  li {
-    font-size: calc(1.125rem * var(--smaller));
-  }
-  
-  li span {
-    font-size: calc(3.375rem * var(--smaller));
-  }
-}
-    </style>
 </head>
 
 <body>
-    <div id="main">
-        <div id="page-loader">
-            <div class="spinner-container">
-                <div class="css-spinner"></div>
+
+    <!-- =====================================
+    	==== Start Loading -->
+
+    <div class="loading">
+        <div class="text-center middle">
+            <div class="lds-ellipsis">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
-        </div>
-        <!-- <div class="options-panel">
-            <div class="content-panel">
-                <h2>Example Options</h2> <span class="ti-settings panel-button"></span>
-                <h4 class="pei">Particle Effect</h4>
-                <div id="particle-effect" class="option-block">
-                    <p class="gravity-remove-button">Remove</p>
-                </div>
-                <h4>Overlay Scheme</h4>
-                <div id="overlay-skin" class="option-block">
-                    <p class="overlay-skin-black nvb active">Black</p>
-                    <p class="overlay-skin-white nvb">White</p>
-                </div>
-                <h4>Overlay Animation</h4>
-                <div id="overlay-animation" class="option-block">
-                    <p class="overlay-animation-fade nvb active">Fade</p>
-                    <p class="overlay-animation-slide nvb">Slide</p>
-                </div>
-                <h4>Overlay Content Animation</h4>
-                <div id="overlay-content-animation" class="option-block">
-                    <p class="overlay-content-animation-fade nvb">Fade</p>
-                    <p class="overlay-content-animation-slide nvb active">Slide</p>
-                </div>
-                <h4>Overlay Bullet Navigation</h4>
-                <div id="bullet-navigation" class="option-block">
-                    <p class="bullet-navigation-on nvb active">On</p>
-                    <p class="bullet-navigation-off nvb">Off</p>
-                </div>
-                <p class="bottom-line">* Change 50+ options via the included configuration file in your download
-                    package!</p>
-            </div>
-        </div> -->
-        <section id="hero" class="hero hero-1">
-            <div class="front-content page-enter-animated">
-                <div class="container-mid"> 
-                    <!-- <img class="logo" src="assets/images/logo.png" alt="logo"> -->
-                    <div class="logo-one" style="font-size: 48px;">VATAN Journal</div>
-                    <div class="cycle-wrapper">
-                        <div id="cycle">
-                            <div class="slide">
-                                <h1>HISTORY</h1>
-                            </div>
-                            <div class="slide">
-                                <h1>NEWS</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <p>OUR WEBSITE IS COMING SOON</p>
-                    <div class="arrow-wrap go-down">
-                        <div class="open-overlay down-button"> <i class="ti-arrow-down"></i> <i
-                                class="ti-arrow-down"></i> </div>
-                    </div>
-                    <div class="conatin-countd">
-                        <div class="container">
-                            <div id="countdown">
-                                <ul>
-                                    <li><span id="days"></span>days</li>
-                                    <li><span id="hours"></span>Hours</li>
-                                    <li><span id="minutes"></span>Minutes</li>
-                                    <li><span id="seconds"></span>Seconds</li>
-                                </ul>
-                            </div>
-                        
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="background-content page-enter-animated">
-                <div class="level-1">
-                    <div class="bg-overlay"></div>
-                    <div class="bg-pattern"></div>
-                    <div id="canvas"><canvas class="bg-effect layer" data-depth="0.2"></canvas></div>
-                </div>
-                <div class="level-2">
-                    <div class="bg-image layer" data-depth="0.04"></div>
-                    <div class="bg-video layer" data-depth="0.04"></div>
-                    <div class="bg-color layer" data-depth="0.04"></div>
-                </div>
-            </div>
-        </section>
-        <div id="overlay">
-            <section class="overlay">
-                <div id="about" class="content">
-                    <div class="container-mid">
-                        <div class="container">
-                            <h1>OUR WEBSITE IS COMING SOON</h1>
-                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                                dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-                                nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
-                                sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
-                                vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                                Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-                                elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor
-                                eu, </p>
-                            <form action="https://creazione.avanzare.co/gravity/demo/assets/php/subscribe.php"
-                                method="post" class="subscribe-form">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="input-group input-group-lg"><input type="text" name="email"
-                                                placeholder="* Enter your email to Subscribe!"
-                                                class="email form-control">
-                                            <div class="fhp-input"><input type="text" name="phone"
-                                                    placeholder="* Enter your phone to Subscribe!"
-                                                    class="email form-control"></div>
-                                            <div class="input-group-btn"><button type="submit"
-                                                    class="btn btn-primary form-control"> <i
-                                                        class="ti-arrow-right first"></i><i
-                                                        class="ti-arrow-right second"></i> </button></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                            <ul class="social-icons">
-                                <li><a data-placement="bottom" title="Facebook" class="ti-facebook" href="#">
-                                        <div class="overlay"></div>
-                                    </a></li>
-                                <li><a data-placement="bottom" title="Twitter" class="ti-twitter-alt" href="#">
-                                        <div class="overlay"></div>
-                                    </a></li>
-                                <li><a data-placement="bottom" title="Google+" class="ti-google" href="#">
-                                        <div class="overlay"></div>
-                                    </a></li>
-                                <li><a data-placement="bottom" title="Contact" class="fa fa-envelope go-down" href="#">
-                                        <div class="overlay"></div>
-                                    </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="overlay">
-                <div id="contact" class="content">
-                    <div class="container-mid">
-                        <div class="container">
-                            <h1>Contact</h1>
-                            <p> Want to say hello? Want to know more about us? Drop us an email and we will get back to
-                                you as soon as we can. </p>
-                            <form id="contact-form"
-                                action="https://creazione.avanzare.co/gravity/demo/assets/php/contact.php"
-                                method="post">
-                                <div class="control-group"> <label class="nameLabel">Name</label> <input
-                                        id="contact-form-name" type="text" name="name" class="form-control"> </div>
-                                <div class="control-group"> <label class="emailLabel">Email</label> <input
-                                        id="contact-form-email" type="text" name="email" class="form-control"> </div>
-                                <div class="control-group fhp-input"> <label class="phoneLabel">Phone</label> <input
-                                        id="contact-form-phone" type="phone" name="phone" class="form-control"> </div>
-                                <div class="control-group"> <label class="messageLabel">Message</label> <textarea
-                                        id="contact-form-message" name="message" class="form-control"></textarea> </div>
-                                <div class="control-group"> <button type="submit" class="form-control"> <i
-                                            class="ti-arrow-right first"></i> <i class="ti-arrow-right second"></i>
-                                    </button> </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div class="up-button go-up"><i class="ti-arrow-up"></i><i class="ti-arrow-up"></i></div>
         </div>
     </div>
-    <script type="text/javascript" src="assets/js/xsg235t4r1r.js"></script>
-    <script>
-        (function () {
-                const second = 1000,
-                    minute = second * 60,
-                    hour = minute * 60,
-                    day = hour * 24;
 
-                //I'm adding this section so I don't have to keep updating this pen every year :-)
-                //remove this if you don't need it
-                let today = new Date(),
-                    dd = String(today.getDate()).padStart(2, "0"),
-                    mm = String(today.getMonth() + 1).padStart(2, "0"),
-                    yyyy = today.getFullYear(),
-                    nextYear = yyyy + 1,
-                    dayMonth = "08/02/",
-                    birthday = dayMonth + yyyy;
+    <!-- End Loading ====
+    	======================================= -->
 
-                today = mm + "/" + dd + "/" + yyyy;
-                if (today > birthday) {
-                    birthday = dayMonth + nextYear;
-                }
-                //end
 
-                const countDown = new Date(birthday).getTime(),
-                    x = setInterval(function () {
+    <!-- =====================================
+    	==== Start Navbar -->
 
-                        const now = new Date().getTime(),
-                            distance = countDown - now;
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
 
-                        document.getElementById("days").innerText = Math.floor(distance / (day)),
-                            document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-                            document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-                            document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+            <!-- Logo -->
+            <a class="logo" href="#">
+                <img style="width: 100px;" src="img/logoes.png" alt="">
+                <span>VƏTƏN</span>
+            </a>
 
-                        //do something later when date is reached
-                        if (distance < 0) {
-                            document.getElementById("headline").innerText = "It's my birthday!";
-                            document.getElementById("countdown").style.display = "none";
-                            document.getElementById("content").style.display = "block";
-                            clearInterval(x);
-                        }
-                        //seconds
-                    }, 0)
-            }());
-    </script>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-scroll-nav="0">Əsas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="1">Jurnal</a>
+                    </li>
+                    <!-- <li class="nav-item">
+			        <a class="nav-link" href="#" data-scroll-nav="2">Services</a>
+			      </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="3">Qalereya</a>
+                    </li>
+                    <!-- <li class="nav-item">
+			        <a class="nav-link" href="#" data-scroll-nav="4">Krossvord</a>
+			      </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-scroll-nav="5">Əlaqə</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End Navbar ====
+    	======================================= -->
+
+
+    <!-- =====================================
+    	==== Start Header -->
+
+    <header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="3" data-background="img/bg_result.jpg"
+        data-stellar-background-ratio="0.5">
+
+        <div class="svg">
+            <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                <polygon points="-30,300 355.167,210.5 1432.5,290 1920,198.5 1920,300"></polygon>
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="full-width text-center caption mt-30">
+                    <h1 class="cd-headline clip">
+                        <span>Könlümün sevgili məhbubu mənim,
+                            Vətənimdir, vətənimdir, vətənim. </span>
+                        <!-- <span class="cd-words-wrapper">
+                                <b class="is-visible">Alex Smith</b>
+                                <b>UI / UX Designer</b>
+                                <b>Web Developer</b>
+                            </span> -->
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow bounce" data-scroll-nav="1">
+            <img src="img/down-chevron.svg" alt="">
+        </div>
+
+    </header>
+
+    <!-- End Header ====
+    	======================================= -->
+
+    <!-- =====================================
+        ==== Start Hero -->
+
+    <section class="hero section-padding" data-scroll-index="1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-5">
+                    <div class="author-img">
+                        <img src="img/journ_cover.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="content">
+                        <h2>Vətən jurnalı</h2>
+                        <p>
+                            RF mətbuat, teleradioyayım, və kütləvi informasiya vasitələri üzrə işlər nazirliyi.
+                            <br>
+                            “Vətən” (“Родина”) ictimai-kulturoloji jurnalı.
+                            <br>
+                            Kütləvi informasiya vasitələrinin qeydiyyatı haqqında şəhadətnamə Pİ No 77-11948 14 fevral
+                            2002-ci il.
+                            <br>
+                            Təsisçi: Muradov Namik İbrahim oğlu.
+                        </p>
+                        <p>
+                            Министерство РФ по делам печати, телерадиовещания и средств массовых коммуникаций.
+                            <br>
+                            Общественно-культурологический журнал «Veten” («Родина»).
+                            <br>
+                            Свидетельство о регистрации средств массовой информации ПИ №77-11948 от 14. 02. 2002 г.
+                            <br>
+                            Учредитель: Мурадов Намик Ибрагим-оглы.
+                        </p>
+
+                        <a href="javascript:void(0)" class="butn butn-bg"><span>Juranlı oxu</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="se-tring se-tring-gray">
+            <span class="left"></span>
+            <span class="right"></span>
+        </div>
+    </section>
+
+    <!-- End Hero ====
+        ======================================= -->
+
+
+    <!-- =====================================
+        ==== Start Services -->
+
+    <!-- <section class="services section-padding bg-gray" data-scroll-index="2">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="section-head text-center col-sm-12">
+                        <h4>Our Services</h4>
+                        <h6>Awesome Featruse</h6>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="item">
+                            <span class="icon"><i class="icon-laptop"></i></span>
+                            <h6>Developments</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="item">
+                            <span class="icon"><i class="icon-briefcase"></i></span>
+                            <h6>Web Design</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="item">
+                            <span class="icon"><i class="icon-circle-compass"></i></span>
+                            <h6>Branding</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="item">
+                            <span class="icon"><i class="icon-layers"></i></span>
+                            <h6>Easy Installation</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="item">
+                            <span class="icon"><i class="icon-mobile"></i></span>
+                            <h6>Fully Responsive</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="item">
+                            <span class="icon"><i class="icon-megaphone"></i></span>
+                            <h6>Trusted Support</h6>
+                            <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="se-tring se-tring-rev">
+                <span class="left"></span>
+                <span class="right"></span>
+            </div>
+        </section> -->
+
+    <!-- End Services ====
+        ======================================= -->
+
+
+    <!-- =====================================
+        ==== Start Portfolio -->
+
+    <section class="portfolio section-padding bg-gray" data-scroll-index="3">
+        <div class="container">
+            <div class="row">
+
+                <div class="section-head text-center col-sm-12">
+                    <h4>Qalereya</h4>
+                    <!-- <h6>Latest Projects</h6> -->
+                </div>
+
+                <!-- filter links -->
+                <div class="filtering text-center mb-30 col-sm-12">
+                    <span data-filter='*' class="active">Hamısı</span>
+                    <span data-filter='.baku'>Bakı</span>
+                    <span data-filter='.karabakh'>Qarabağ</span>
+                    <span data-filter='.xalca'>Xalça</span>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <!-- gallery -->
+                <div class="gallery text-center full-width">
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items baku">
+                        <div class="item-img">
+                            <img src="img/gallery/baku_night.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Bakı gecələri</h6>
+                                    <!-- <p>Work description here</p> -->
+                                </div>
+                                <a href="img/gallery/baku_night.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items baku">
+                        <div class="item-img">
+                            <img src="img/gallery/boulevard.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Bakı bulvarı</h6>
+                                    <!-- <p>Work description here</p> -->
+                                </div>
+                                <a href="img/gallery/boulevard.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 items xalca">
+                        <div class="item-img">
+                            <img src="img/gallery/xalca2.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Ərdəbil halısı</h6>
+                                    <!-- <p>Work description here</p> -->
+                                </div>
+                                <a href="img/gallery/xalca2.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 items xalca">
+                        <div class="item-img">
+                            <img src="img/gallery/xalca1.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Pazrık halısı</h6>
+                                    <!-- <p>Work description here</p> -->
+                                </div>
+                                <a href="img/gallery/xalca1.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items baku">
+                        <div class="item-img">
+                            <img src="img/gallery/maiden_tower.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Qız qalası</h6>
+                                    <!-- <p>Work description here</p> -->
+                                </div>
+                                <a href="img/gallery/maiden_tower.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items karabakh">
+                        <div class="item-img">
+                            <img src="img/gallery/smart.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Ağıllı kəndlər</h6>
+                                    <!-- <p>Work description here</p> -->
+                                </div>
+                                <a href="img/gallery/smart.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items karabakh">
+                        <div class="item-img">
+                            <img src="img/gallery/map.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Xəritə</h6>
+                                    <!-- <p>Work description here</p> -->
+                                </div>
+                                <a href="img/gallery/map.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-md-6 col-lg-4 items karabakh">
+                        <div class="item-img">
+                            <img src="img/gallery/agdam.jpg" alt="image">
+                            <div class="item-img-overlay valign">
+                                <div class="overlay-info full-width vertical-center">
+                                    <h6>Ağdam</h6>
+                                    <!-- <p>Work description here</p> -->
+                                </div>
+                                <a href="img/gallery/agdam.jpg" class="popimg">
+                                    <i class="fas fa-images"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="clear-fix"></div>
+
+            </div>
+
+        </div>
+        </div>
+        <div class="se-tring se-tring-rev">
+            <span class="left"></span>
+            <span class="right"></span>
+        </div>
+    </section>
+
+    <!-- End Portfolio ====
+        ======================================= -->
+
+
+    <!-- =====================================
+        ==== Start Blog -->
+
+    <!-- <section class="blog section-padding bg-gray" data-scroll-index="4">
+            <div class="container">
+                <div class="row">
+
+                    <div class="section-head text-center col-sm-12">
+                        <h4>Krossvord</h4>
+                        <h6>Latest News</h6>
+                    </div>
+
+                     Posts -->
+    <!-- <div class="owl-carousel owl-theme col-sm-12">
+                        <div class="item mb-30">
+                            <div class="post-img">
+                                <img src="img/blog/1.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <span><a href="#0">August 06 , 2017</a></span>
+                                <span>/</span>
+                                <span><a href="#0">
+                                    <em>WordPress</em>
+                                </a></span>
+                                <h5><a href="#0">48 Best WordPress Themes</a></h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever</p>
+                                <a href="#0" class="more">Continue Reading<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="post-img">
+                                <img src="img/blog/2.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <span><a href="#0">August 06 , 2017</a></span>
+                                <span>/</span>
+                                <span><a href="#0">
+                                    <em>WordPress</em>
+                                </a></span>
+                                <h5><a href="#0">Managing Their Own Websites</a></h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever</p>
+                                <a href="#0" class="more">Continue Reading<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="post-img">
+                                <img src="img/blog/3.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <span><a href="#0">August 06 , 2017</a></span>
+                                <span>/</span>
+                                <span><a href="#0">
+                                    <em>WordPress</em>
+                                </a></span>
+                                <h5><a href="#0">Master These Awesome Skills</a></h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever</p>
+                                <a href="#0" class="more">Continue Reading<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="post-img">
+                                <img src="img/blog/2.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <span><a href="#0">August 06 , 2017</a></span>
+                                <span>/</span>
+                                <span><a href="#0">
+                                    <em>WordPress</em>
+                                </a></span>
+                                <h5><a href="#0">Managing Their Own Websites</a></h5>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the dummy text ever</p>
+                                <a href="#0" class="more">Continue Reading<i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="se-tring se-tring-rev">
+                <span class="left"></span>
+                <span class="right"></span>
+            </div>
+        </section>  -->
+
+    <!-- End Blog ====
+        ======================================= -->
+
+
+    <!-- =====================================
+        ==== Start Contact -->
+
+    <section class="contact section-padding" data-scroll-index="5">
+        <div class="section-head text-center col-sm-12">
+            <h4>Əlaqə</h4>
+            <!-- <h6>Get In Touch</h6> -->
+        </div>
+        <img style="width: 100%; height: 300px; object-fit: cover;" src="img/buta.png" alt="">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-md-12">
+                    <form class="form" id="contact-form" method="post" action="#">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+
+                                <!-- <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input id="form_name" type="text" name="name" placeholder="Name *" required="required" data-error="Firstname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input id="form_email" type="email" name="email" placeholder="Email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea id="form_message" name="message" placeholder="Your Message *" rows="4" required="required" data-error="Your message is required."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div> -->
+
+                                <div class="col-md-12">
+
+                                    <!-- <button type="submit" class="butn butn-bg"><span>Send Message</span></button> -->
+                                    <div class="info">
+                                        <span><strong>Email</strong> : <a href="mailto:vatan.info@mail.ru">vatan.info@mail.ru</a></span>
+                                        <span><strong>Ünvan</strong> : Redaksiyanın ünvanı: 424000.RF, Mari El
+                                            Respublikası, Yoshkar-Ola, Petrov küç, 18-a, ofis 144. </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- End Contact ====
+        ======================================= -->
+
+
+    <!-- =====================================
+        ==== Start Footer -->
+
+    <footer class="text-center">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="logo" href="#">
+                Vətən
+            </a>
+            <!--                 
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                </div> -->
+
+            <p>&copy; 2024 Vatan. All Rights Reserved.</p>
+
+        </div>
+    </footer>
+
+    <!-- End Footer ====
+        ======================================= -->
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- popper.min -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- scrollIt -->
+    <script src="js/scrollIt.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- animated.headline -->
+    <script src="js/animated.headline.js"></script>
+
+    <!-- jquery.magnific-popup js -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- stellar js -->
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <!-- isotope.pkgd.min js -->
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <!-- validator js -->
+    <script src="js/validator.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
