@@ -1013,5 +1013,22 @@ footer p {
     line-height: 1.8;
   }
 }
+.author-img:hover{
+  .overlay-butn{
+    opacity: 0.4;
+  }
+}
+
+.overlay-butn{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s all ease;
+}
 
 /*# sourceMappingURL=style.css.map */
