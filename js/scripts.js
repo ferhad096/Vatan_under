@@ -200,6 +200,19 @@ $(document).ready(function () {
     renderPaginationControls();
   }
 
+  // function renderPage(pageNumber) {
+  //   gallery.innerHTML = ""; // Clear the gallery before rendering the new page
+  //   const startIndex = (pageNumber - 1) * itemsPerPage;
+  //   const endIndex = Math.min(startIndex + itemsPerPage, imagesArray.length);
+  //   const imagesToDisplay = imagesArray.slice(startIndex, endIndex);
+
+  //   imagesToDisplay.forEach((image) => renderOneImage(image));
+
+  //   // Initialize Isotope after the gallery has been updated
+  //   setTimeout(() => {
+  //     runIsotope();
+  //   }, 100); // Adjust timeout if necessary
+  // }
   function renderPage(pageNumber) {
     gallery.innerHTML = ""; // Clear the gallery before rendering the new page
     const startIndex = (pageNumber - 1) * itemsPerPage;
@@ -208,11 +221,12 @@ $(document).ready(function () {
 
     imagesToDisplay.forEach((image) => renderOneImage(image));
 
-    // Initialize Isotope after the gallery has been updated
-    setTimeout(() => {
-      runIsotope();
-    }, 100); // Adjust timeout if necessary
+    // Ensure Isotope runs after all images are fully loaded
+    imagesLoaded(gallery, function () {
+      runIsotope(); // Initialize Isotope only after images are loaded
+    });
   }
+
 
   function renderOneImage(image) {
     const newElement = document.createElement("div");
