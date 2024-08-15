@@ -1,0 +1,254 @@
+[
+  {
+    "id": "1",
+    "originPath": "img/gallery/baku_night.jpg",
+    "path": "img/gallery/baku_night.webp",
+    "description": "Bakı gecələri"
+  },
+  {
+    "id": "2",
+    "originPath": "img/gallery/Baku_Boulevard,_Little_Venice.jpg",
+    "path": "img/gallery/Baku_Boulevard,_Little_Venice.webp",
+    "description": "Bakı bulvarı Kiçik Venesiya şəhərciyi"
+  },
+  {
+    "id": "3",
+    "originPath": "img/gallery/xalca2.jpg",
+    "path": "img/gallery/xalca2.webp",
+    "description": "Ərdəbil halısı"
+  },
+  {
+    "id": "4",
+    "originPath": "img/gallery/xalca1.jpg",
+    "path": "img/gallery/xalca1.webp",
+    "description": "Pazrık halısı"
+  },
+  {
+    "id": "5",
+    "originPath": "img/gallery/maiden_tower.jpg",
+    "path": "img/gallery/maiden_tower.webp",
+    "description": "Qız qalası"
+  },
+  {
+    "id": "6",
+    "originPath": "img/gallery/smart.jpg",
+    "path": "img/gallery/smart.webp",
+    "description": "Qarabağ ağıllı kəndlər"
+  },
+  {
+    "id": "7",
+    "originPath": "img/gallery/map.jpg",
+    "path": "img/gallery/map.webp",
+    "description": "Xəritə"
+  },
+  {
+    "id": "8",
+    "originPath": "img/gallery/agdam.jpg",
+    "path": "img/gallery/agdam.webp",
+    "description": "Ağdam"
+  },
+  {
+    "id": "9",
+    "originPath": "img/gallery/qirmizi qesebe alti gunbez sinaqoqu.jpg",
+    "path": "img/gallery/qirmizi qesebe alti gunbez sinaqoqu.webp",
+    "description": "Qırmızı qəsəbə altı günbəz sinaqoqu"
+  },
+  {
+    "id": "10",
+    "originPath": "img/gallery/Əlincəqala.jpg",
+    "path": "img/gallery/Əlincəqala.webp",
+    "description": "Əlincə qalası"
+  },
+  {
+    "id": "11",
+    "originPath": "img/gallery/lake-goygol.webp",
+    "path": "img/gallery/lake-goygol.webp",
+    "description": "Göygöl"
+  },
+  {
+    "id": "12",
+    "originPath": "img/gallery/heyder eliyev mescid.jpg",
+    "path": "img/gallery/heyder eliyev mescid.webp",
+    "description": "Heydər Əliyev məscidi"
+  },
+  {
+    "id": "13",
+    "originPath": "img/gallery/sheki.webp",
+    "path": "img/gallery/sheki_1.webp",
+    "description": "Şəki"
+  },
+  {
+    "id": "14",
+    "originPath": "img/gallery/bazarduzu.webp",
+    "path": "img/gallery/bazarduzu_1.webp",
+    "description": "Bazardüzü"
+  },
+  {
+    "id": "15",
+    "originPath": "img/gallery/yanar-dag.webp",
+    "path": "img/gallery/yanar-dag_1.webp",
+    "description": "Yanardağ"
+  },
+  {
+    "id": "16",
+    "originPath": "img/gallery/boulevard.jpg",
+    "path": "img/gallery/boulevard.webp",
+    "description": "Bakı bulvarı Kiçik Venesiya şəhərciyi"
+  },
+  {
+    "id": "17",
+    "originPath": "img/gallery/guzdek-bozdagi-palciq-vulkani.jpg",
+    "path": "img/gallery/guzdek-bozdagi-palciq-vulkani.webp",
+    "description": "Güzdək Bozdağı palçıq vulkanı"
+  },
+  {
+    "id": "18",
+    "originPath": "img/gallery/heydar-ceneter.jpg",
+    "path": "img/gallery/heydar-ceneter.webp",
+    "description": "Heydər Əliyev mərkəzi"
+  },
+  {
+    "id": "19",
+    "originPath": "img/gallery/Jen_Mironosits_pravoslav_kafedral_kilsesi.jpg",
+    "path": "img/gallery/Jen_Mironosits_pravoslav_kafedral_kilsesi.webp",
+    "description": "Jen Mironosits pravoslav kafedral kilsəsi"
+  },
+  {
+    "id": "20",
+    "originPath": "img/gallery/qobustan qaya resmleri.jpg",
+    "path": "img/gallery/qobustan qaya resmleri.webp",
+    "description": "Qobustan qaya rəsmləri"
+  },
+  {
+    "id": "21",
+    "originPath": "img/gallery/qobustan qayalari.jpg",
+    "path": "img/gallery/qobustan qayalari.webp",
+    "description": "Qobustan qayaları"
+  },
+  {
+    "id": "22",
+    "originPath": "img/gallery/talish.jpg",
+    "path": "img/gallery/talish.webp",
+    "description": "Talış etnik mədəniyyəti"
+  },
+  {
+    "id": "23",
+    "originPath": "img/gallery/xalca-museum.jpg",
+    "path": "img/gallery/xalca-museum.webp",
+    "description": "Xalça muzeyi"
+  },
+  {
+    "id": "24",
+    "originPath": "img/gallery/xizi-daglari.jpg",
+    "path": "img/gallery/xizi-daglari.webp",
+    "description": "Xızı dağları"
+  },
+  {
+    "id": "25",
+    "originPath": "img/gallery/avar.jpg",
+    "path": "img/gallery/avar.webp",
+    "description": "Avar etnik mədəniyyəti"
+  },
+  {
+    "id": "26",
+    "originPath": "img/gallery/lezgi.jpg",
+    "path": "img/gallery/lezgi.webp",
+    "description": "Ləzgi etnik mədəniyyəti"
+  },
+  {
+    "id": "27",
+    "originPath": "img/gallery/tats.jpg",
+    "path": "img/gallery/tats.webp",
+    "description": "Tat etnik mədəniyyəti"
+  },
+  {
+    "id": "28",
+    "originPath": "img/gallery/Azerbaijan_ethnic_map_2024.png",
+    "path": "img/gallery/Azerbaijan_ethnic_map_2024.webp",
+    "description": "Azərbaycan etnik xəritəsi"
+  },
+  {
+    "id": "29",
+    "originPath": "img/gallery/shusha.jpg",
+    "path": "img/gallery/shusha.webp",
+    "description": "Şuşa"
+  },
+  {
+    "id": "30",
+    "originPath": "img/gallery/cidir_duzu.jpg",
+    "path": "img/gallery/cidir_duzu.webp",
+    "description": "Şuşa - Cıdır düzü"
+  },
+  {
+    "id": "31",
+    "originPath": "img/gallery/albanian-udi-temple.jpg",
+    "path": "img/gallery/albanian-udi-temple.webp",
+    "description": "Alban Udi məbədi"
+  },
+  {
+    "id": "32",
+    "originPath": "img/gallery/icerisheher_1.jpg",
+    "path": "img/gallery/icerisheher_1.webp",
+    "description": "İçərişəhər"
+  },
+  {
+    "id": "33",
+    "originPath": "img/gallery/icerisheher_2.jpg",
+    "path": "img/gallery/icerisheher_2.webp",
+    "description": "İçərişəhər"
+  },
+  {
+    "id": "34",
+    "originPath": "img/gallery/cimerlik.jpg",
+    "path": "img/gallery/cimerlik.webp",
+    "description": "Xəzər dənizi - çimərlik"
+  },
+  {
+    "id": "35",
+    "originPath": "img/gallery/xezer_denizi.jpg",
+    "path": "img/gallery/xezer_denizi.webp",
+    "description": "Xəzər dənizi"
+  },
+  {
+    "id": "36",
+    "originPath": "img/gallery/badamdar_hotel.jpeg",
+    "path": "img/gallery/badamdar_hotel.webp",
+    "description": "Badamdar otel"
+  },
+  {
+    "id": "37",
+    "originPath": "img/gallery/fairmont.webp",
+    "path": "img/gallery/fairmont_1.webp",
+    "description": "Fairmont otel"
+  },
+  {
+    "id": "38",
+    "originPath": "img/gallery/ritz-carlton.jpg",
+    "path": "img/gallery/ritz-carlton.webp",
+    "description": "Ritz carlton Bakı"
+  },
+  {
+    "id": "39",
+    "originPath": "img/gallery/four_seasons.jpg",
+    "path": "img/gallery/four_seasons.webp",
+    "description": "Four seasons otel"
+  },
+  {
+    "id": "40",
+    "originPath": "img/gallery/hilton.jpg",
+    "path": "img/gallery/hilton.webp",
+    "description": "Hilton Bakı"
+  },
+  {
+    "id": "41",
+    "originPath": "img/gallery/jw_marriott_absheron.jpg",
+    "path": "img/gallery/jw_marriott_absheron.webp",
+    "description": "Jw Marriott Absheron"
+  },
+  {
+    "id": "42",
+    "originPath": "img/gallery/dovlet_bayraq_meydani.jpg",
+    "path": "img/gallery/dovlet_bayraq_meydani.webp",
+    "description": "Dövlət bayrağı meydanı"
+  }
+]

@@ -120,30 +120,30 @@ $(window).on("load",function (){
     wind.stellar();
 
 
-    // isotope
-    $('.gallery').isotope({
-      // options
-      itemSelector: '.items'
-    });
+    // // isotope
+    // $('.gallery').isotope({
+    //   // options
+    //   itemSelector: '.items'
+    // });
 
-    var $gallery = $('.gallery').isotope({
-      // options
-    });
+    // var $gallery = $('.gallery').isotope({
+    //   // options
+    // });
 
-    // filter items on button click
-    $('.filtering').on( 'click', 'span', function() {
+    // // filter items on button click
+    // $('.filtering').on( 'click', 'span', function() {
 
-        var filterValue = $(this).attr('data-filter');
+    //     var filterValue = $(this).attr('data-filter');
 
-        $gallery.isotope({ filter: filterValue });
+    //     $gallery.isotope({ filter: filterValue });
 
-    });
+    // });
 
-    $('.filtering').on( 'click', 'span', function() {
+    // $('.filtering').on( 'click', 'span', function() {
 
-        $(this).addClass('active').siblings().removeClass('active');
+    //     $(this).addClass('active').siblings().removeClass('active');
 
-    });
+    // });
 
 
     // contact form validator
@@ -174,3 +174,288 @@ $(window).on("load",function (){
     });
 
 });
+// function runIsotope() {
+//   // Check if Isotope is already initialized
+//   if ($(".gallery").data("isotope")) {
+//     // Reinitialize Isotope if it already exists
+//     $(".gallery").isotope("reloadItems").isotope();
+//   } else {
+//     // Initialize Isotope if it does not exist
+//     $(".gallery").isotope({
+//       // options
+//       itemSelector: ".items",
+//     });
+//   }
+
+//   // Filter items on button click
+//   $(".filtering").on("click", "span", function () {
+//     var filterValue = $(this).attr("data-filter");
+//     $(".gallery").isotope({ filter: filterValue });
+//   });
+
+//   $(".filtering").on("click", "span", function () {
+//     $(this).addClass("active").siblings().removeClass("active");
+//   });
+//    console.log("Running Isotope...");
+// }
+
+// fetch("js/images.json")
+//   .then((response) => response.json())
+//   .then((imagesArray) => renderAllImages(imagesArray));
+
+// const itemsPerPage = 10;
+// let currentPage = 1;
+// let imagesArray = [];
+
+// const gallery = document.querySelector(".gallery");
+// const paginationContainer = document.querySelector(".pagination");
+
+// function renderAllImages(data) {
+//   imagesArray = data;
+//   renderPage(currentPage);
+//   renderPaginationControls();
+// }
+
+// function renderPage(pageNumber) {
+//   gallery.innerHTML = ""; // Clear the gallery before rendering the new page
+//   const startIndex = (pageNumber - 1) * itemsPerPage;
+//   const endIndex = Math.min(startIndex + itemsPerPage, imagesArray.length);
+//   const imagesToDisplay = imagesArray.slice(startIndex, endIndex);
+
+//   imagesToDisplay.forEach((image) => renderOneImage(image));
+
+//   // Initialize Isotope after the gallery has been updated
+//   setTimeout(() => {
+//     runIsotope();
+//   }, 100); // Adjust timeout if necessary
+// }
+
+// function renderOneImage(image) {
+//   const newElement = document.createElement("div");
+//   newElement.className = `col-md-6 col-lg-4 items`;
+//   newElement.innerHTML = `
+//         <div class="item-img">
+//             <img src="${image.path}" alt="image">
+//             <div class="item-img-overlay valign">
+//                 <div class="overlay-info full-width vertical-center">
+//                     <h6>${image.description}</h6>
+//                 </div>
+//                 <a href="${image.originPath}" class="popimg">
+//                     <i class="fas fa-images"></i>
+//                 </a>
+//             </div>
+//         </div>
+//     `;
+//   gallery.append(newElement);
+// }
+
+// // function renderPaginationControls() {
+// //   paginationContainer.innerHTML = ""; // Clear existing controls
+// //   const totalPages = Math.ceil(imagesArray.length / itemsPerPage);
+
+// //   for (let i = 1; i <= totalPages; i++) {
+// //     const pageButton = document.createElement("button");
+// //     pageButton.innerText = i;
+// //     pageButton.className = "pagination-button";
+// //     pageButton.addEventListener("click", () => {
+// //       currentPage = i;
+// //       renderPage(currentPage);
+// //     });
+// //     paginationContainer.append(pageButton);
+// //   }
+ 
+
+// // }
+// function renderPaginationControls() {
+//   paginationContainer.innerHTML = ""; // Clear existing controls
+//   const totalPages = Math.ceil(imagesArray.length / itemsPerPage);
+
+//   for (let i = 1; i <= totalPages; i++) {
+//     const pageButton = document.createElement("button");
+//     pageButton.innerText = i;
+//     pageButton.className = "pagination-button";
+
+//     // Add active class to the current page button
+//     if (i === currentPage) {
+//       pageButton.classList.add("active");
+//     }
+
+//     pageButton.addEventListener("click", () => {
+//       currentPage = i;
+//       renderPage(currentPage);
+
+//       // Update active class on pagination buttons
+//       const allButtons =
+//         paginationContainer.querySelectorAll(".pagination-button");
+//       allButtons.forEach((button) => button.classList.remove("active"));
+//       pageButton.classList.add("active");
+//     });
+
+//     paginationContainer.append(pageButton);
+//   }
+// }
+
+
+// // Optional: Add previous and next buttons
+// function addNavigationControls() {
+//   const prevButton = document.createElement("button");
+//   prevButton.innerText = "Previous";
+//   prevButton.addEventListener("click", () => {
+//     if (currentPage > 1) {
+//       currentPage--;
+//       renderPage(currentPage);
+//     }
+//   });
+
+//   const nextButton = document.createElement("button");
+//   nextButton.innerText = "Next";
+//   nextButton.addEventListener("click", () => {
+//     if (currentPage < Math.ceil(imagesArray.length / itemsPerPage)) {
+//       currentPage++;
+//       renderPage(currentPage);
+//     }
+//   });
+
+//   paginationContainer.prepend(prevButton);
+//   paginationContainer.append(nextButton);
+
+// }
+
+// // Initialize pagination
+// addNavigationControls();
+
+function runIsotope() {
+  if ($(".gallery").data("isotope")) {
+    $(".gallery").isotope("reloadItems").isotope();
+  } else {
+    $(".gallery").isotope({
+      itemSelector: ".items",
+    });
+  }
+
+  $(".filtering").on("click", "span", function () {
+    var filterValue = $(this).attr("data-filter");
+    $(".gallery").isotope({ filter: filterValue });
+  });
+
+  $(".filtering").on("click", "span", function () {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+}
+
+fetch("js/images.json")
+  .then((response) => response.json())
+  .then((imagesArray) => renderAllImages(imagesArray));
+
+const itemsPerPage = 10;
+let currentPage = 1;
+let imagesArray = [];
+
+const gallery = document.querySelector(".gallery");
+const paginationContainer = document.querySelector(".pagination");
+
+// Function to shuffle the array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+function renderAllImages(data) {
+  imagesArray = data;
+
+  // Shuffle the images
+  shuffleArray(imagesArray);
+
+  renderPage(currentPage);
+  renderPaginationControls();
+}
+
+function renderPage(pageNumber) {
+  gallery.innerHTML = ""; // Clear the gallery before rendering the new page
+  const startIndex = (pageNumber - 1) * itemsPerPage;
+  const endIndex = Math.min(startIndex + itemsPerPage, imagesArray.length);
+  const imagesToDisplay = imagesArray.slice(startIndex, endIndex);
+
+  imagesToDisplay.forEach((image) => renderOneImage(image));
+
+  // Initialize Isotope after the gallery has been updated
+  setTimeout(() => {
+    runIsotope();
+  }, 100); // Adjust timeout if necessary
+}
+
+function renderOneImage(image) {
+  const newElement = document.createElement("div");
+  newElement.className = `col-md-6 col-lg-4 items`;
+  newElement.innerHTML = `
+        <div class="item-img">
+            <img src="${image.path}" alt="image">
+            <div class="item-img-overlay valign">
+                <div class="overlay-info full-width vertical-center">
+                    <h6>${image.description}</h6>
+                </div>
+                <a href="${image.originPath}" class="popimg">
+                    <i class="fas fa-images"></i>
+                </a>
+            </div>
+        </div>
+    `;
+  gallery.append(newElement);
+}
+
+function renderPaginationControls() {
+  paginationContainer.innerHTML = ""; // Clear existing controls
+  const totalPages = Math.ceil(imagesArray.length / itemsPerPage);
+
+  for (let i = 1; i <= totalPages; i++) {
+    const pageButton = document.createElement("button");
+    pageButton.innerText = i;
+    pageButton.className = "pagination-button";
+
+    // Add active class to the current page button
+    if (i === currentPage) {
+      pageButton.classList.add("active");
+    }
+
+    pageButton.addEventListener("click", () => {
+      currentPage = i;
+      renderPage(currentPage);
+
+      // Update active class on pagination buttons
+      const allButtons =
+        paginationContainer.querySelectorAll(".pagination-button");
+      allButtons.forEach((button) => button.classList.remove("active"));
+      pageButton.classList.add("active");
+    });
+
+    paginationContainer.append(pageButton);
+  }
+}
+
+function addNavigationControls() {
+  const prevButton = document.createElement("button");
+  prevButton.innerText = "Previous";
+  prevButton.addEventListener("click", () => {
+    if (currentPage > 1) {
+      currentPage--;
+      renderPage(currentPage);
+    }
+  });
+
+  const nextButton = document.createElement("button");
+  nextButton.innerText = "Next";
+  nextButton.addEventListener("click", () => {
+    if (currentPage < Math.ceil(imagesArray.length / itemsPerPage)) {
+      currentPage++;
+      renderPage(currentPage);
+    }
+  });
+
+  paginationContainer.prepend(prevButton);
+  paginationContainer.append(nextButton);
+}
+
+// Initialize pagination
+addNavigationControls();
