@@ -1071,4 +1071,51 @@ footer p {
     }
 }
 
+.persona{
+  h3{
+   text-align: center;
+   font-weight: 700; 
+  }
+  .text-details{
+    .swiper-pagination-bullet{
+      background: #222;
+    }
+    .swiper-button-next, .swiper-button-prev {
+      color: #222;
+    }
+    h5{
+      text-align: center;
+    }
+    p{
+      white-space: break-spaces;
+    }
+    .swiper{
+      .swiper-slide{
+        text-align: center;
+      }
+      img{
+        width: 100%;
+      }
+    }
+    @media(min-width:900px){
+      p{
+        font-size: 18px;
+      }
+      .swiper{
+        img{
+          width: auto;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+.swiper-pagination-bullet{
+  background: #fff;
+}
+.swiper-button-next, .swiper-button-prev {
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
