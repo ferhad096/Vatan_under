@@ -584,7 +584,7 @@ body.theme-dark .contact .info span {
   z-index: 3;
 }
 .header .svg svg {
-  fill: #fff;
+  fill: #f7f7f7;
   width: 101%;
 }
 
@@ -1031,21 +1031,21 @@ footer p {
 }
 
 .donats{
-  padding: 4rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  ol{
-    text-align: start;
-    margin-left: 20px;
-  }
-  li{
-    font-size: 18px;
-  }
-  .downstairs{
-    p{
+  padding: 100px 0;
+  .contents{
+    padding: 4rem 0;
+    text-align: center;
+    ol{
+      text-align: start;
+      margin-left: 20px;
+    }
+    li{
       font-size: 18px;
+    }
+    .downstairs{
+      p{
+        font-size: 18px;
+      }
     }
   }
 }
