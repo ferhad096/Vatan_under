@@ -584,7 +584,7 @@ body.theme-dark .contact .info span {
   z-index: 3;
 }
 .header .svg svg {
-  fill: #f7f7f7;
+  fill: #FFF;
   width: 101%;
 }
 
@@ -951,9 +951,6 @@ footer p {
     line-height: 1.4;
   }
 
-  .hero .author-img {
-    margin-bottom: 80px;
-  }
 
   .hero .content {
     padding-left: 0;
@@ -1072,6 +1069,7 @@ footer p {
 }
 
 .persona{
+  padding: 100px 0;
   h3{
    text-align: center;
    font-weight: 700; 
@@ -1116,6 +1114,11 @@ footer p {
 }
 .swiper-button-next, .swiper-button-prev {
   color: #fff;
+}
+
+
+.blogs{
+  padding: 100px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
