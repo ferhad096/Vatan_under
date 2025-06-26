@@ -1,0 +1,141 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "“Fəth və Zəfər” məbədinin Türk “tərcümeyi-halı”",
+      "author": "Prof. Dr. Minaxanım Nuriyeva Təkləli",
+      "university": "Azərbaycan Dövlət Pedaqoji Universiteti",
+      "hero-img": "img/blog/Picture1.png",
+      "date": "26 iyun 2025",
+      "content": [
+        {
+          "type": "text",
+          "value": "Moskva Kremlinin önündə Qızıl Meydanın cənub bölümündə yer tutan Pokrov məbədi, daha çox yayılmış adı ilə Vasili Blajennı kilsəsi Türk çadırvarı tərzin ən möhtəşəm örnəyidir. Ona tamaşa edərkən  saysız detalların: nərdivanların, giriş qapılarının, keçidlərin, divar bəzəklərindən  tutmuş qübbələrə qədər hər şeyin çox-çox əski çağlara dayanan Türk üslubu diqqət çəkməkdədir. Rus memarlığının zirvəsi sayılan bu möhtəşəm məbəd (1555-1561) Rus dövlətinin şöhrətini ifadə edirdi."
+        },
+        {
+          "type": "text",
+          "value": "“Fəth və Zəfər” məbədi kimi tanınan bu nadir memarlıq incisi Kazan xanlığı üzərində zəfər münasibətilə inşa edilmişdir. Tarixin həmin çağlarına dönək: get-gedə güclənən Moskva Dövləti Kazana ardıcıl hücumlar  gerçəkləşdirməkdədir; 1461-ci ildən 1552-ci ilə qədər (Kazanın fəthinə qədər) 25 dəfədən artıq hərbi səfər olmuşdur. Rusiya üçün Kazan ciddi bir maneə idi; o, Moskva Dövlətinin Sibirə  çıxması yolunda əngəl kimi durub qalmışdı. Kazanın fəthi ilə Moskva Rusunun qarşısında Sibirin, Uzaq Şərqin geniş dünyası, bitib tükənməyən xəzinəsi açılacaqdı."
+        },
+        {
+          "type": "text",
+          "value": "İndi bu işə önəmli dövlət qədəri kimi baxan Çar İvan Qroznı nəhayət Kazanı istila edib Moskvaya dönən kimi qalibiyyət anıtını inşa etməyi əmr edər; bu iş üçün  memarbaşı Barma görəvləndirilmişdi. Fəqət işin tamamlanması illərcə - 1588- ci ilə qədər sürür. Məbəd 8 müstəqil  kilsədən ibarətdi. Bu Kazan uğrunda 8 həlledici savaşın şərəfinə qoyulduğuna işarət edirdi. Məbədin örnək olaraq alındığı Qul Şərif camesinin təqlidi olduğunu da irəli sürənlər vardır. Belə ki, Çar İvan Qroznının göstərişinə əsasən onun uçurub yerlə bir etdiyi, memarlığına  isə heyran qaldığı gözəl Qul Şərif camesinin tam bənzəri inşa edilməliydi."
+        },
+        {
+          "type": "text",
+          "value": "Ciddi dəyərləndirmələrə görə Vasili Blajennı kilsəsi (1588 ilində məbədə ufacıq bir kilsə də əlavə edildi; bu miniatür ibadətxanda \"allah adamı\" (Rusça yurodivıy) olan Vasili Blajenni dəfn edildi; ad oradandır). Kazandakı 8 minarəli, çadırvarı, soğan-gümbəzli əski Bulqar-Tatar ənənələrini yaşadan və Osmanlı memari elementlərinin süsləndiyi Qul Şərif camesinə bənzədilərək yapılmışdır. Tarixçilər arasında böyük bir qisim araşdırmaçılar da səmimiyyətlə bu camenin gerçəkdən bu günkü Müqəddəs Pokrov (və ya Vasili Blajennı) abidəsinin prototipi olduğunu etiraf etməkdədirlər."
+        },
+        {
+          "type": "text",
+          "value": "“Rusu yaxşıca qaşısan, altından tatar görünür\" deyən Napeleon Kremlindəki mənzilindən tez-tez bu abidəni gün boyunca seyr etdikcə darılır, istehza ilə onu \"came\" adlandırırdı."
+        },
+        {
+          "type": "image",
+          "src": "img/blog/Picture2.png",
+          "alt": "Vasil Blajenni Kilsəsi"
+        },
+        {
+          "type": "text",
+          "value": "Bu ayrıca, kilisələr bir-biriylə qərib bir uyum təşkil edərək möhtəşəm bir məbədi əmələ gətirir. Eyni təməl  üstündə tikilən 8 müstəqil  qübbəli kilisə, nəhayət son savaşın anısına tikilən ortadakı bütün kilsələrdən ən üca və ən böyük qülləylə birləşir... Bu ünlü, sadəcə Moskvanın, hətta bütün Rusiyanın ən möhtəşəm abidəsi olan xristiyan abidəsi \"çadırvarı\" memari üslubundadır."
+        },
+        {
+          "type": "image",
+          "src": "img/blog/Picture3.png",
+          "alt": "Vasil Blajenni Kilsəsi"
+        },
+        {
+          "type": "text",
+          "value": "(Çadırvarı kilsə. Moskvaaltı Medvedkovo kəndi)"
+        },
+        {
+          "type": "text",
+          "value": "Rus memarlığında çadırvarı tərzi əski Türk çadırlarına təqlidən oluşturulan və bu üslubda inşa edilmiş abidələrə “şatrovıy xram” deyilir; bu anda mədəniyyət abidələri olaraq hər bir şəhərdə muhafizə edilən mədəni miras örnəkləri sayılan məbəd, kilsə, ev, saray daxil Kremlin bürçləri (1680) özündə həm də Türk ehtişamını yaşatmaqdadır."
+        },
+        {
+          "type": "text",
+          "value": "Əlbəttə Kazanın alınması dolayısıyla 1555-də tikilən bu anıt çadırvarı məbəd tərzinin ilk örnəyi deyildi, hətta bundan az öncəsinə təsadüf edən Moskvaaltında Dyakov və Kolomenskdə (indi şəhər ərazisinə daxil olmuşdur) Vozneseniya kilsesi və b.k.  örnəklərlə doluydu."
+        },
+        {
+          "type": "text",
+          "value": "Çadır tərzı çox üzlü piramid görünüşündə memari biçim olub inşaatın üst tavan qismini tamamlamaq görəvinə xidmət edir. Bu “çadırlar” aracılığıyla bürclər, qarovul qüllələri, məbədlər və binanın girişi- nərdivanın üstü inşa edilirdi. Çadırları dörd üzlü və ya səkkiz üzlü olurdu; bu mükəmməl proporsiyalar təbii ki, göylərə yüksəlməklə  yapının siluetinə də kəskin dinamizm verir."
+        },
+        {
+          "type": "text",
+          "value": "Məbədin  parlaq, əsrarəngiz gözəlliklər bəxş edən qübbələri Türk-İslam memarlıq  mədəniyyətində \"soğanbaşı\" və ya \"soğan\" deyilən qübbələrdir. Belə ki, özəlliklə Baburilərin sevdikləri  soğan qübbə İran, Hindistan torpaqlarında və Asiyada yayğınlaşmışdır. Bu ünsürlər Rus dilində də ədəbi çeviri yolu ilə saxlanmışdırlar. (lukoviçnıy; luk \"soğan\"; viçnıy “bənzər”) və Rus mimarisində geçici hallardan olmayıb, bu anda əsas etibarı ilə memarlıq incilərinin süsüdür."
+        },
+        {
+          "type": "text",
+          "value": "Kilisənin qübbələrini  (ruscası kupol; lukovıy, lukoviçnıy  kupol “soğan, soğanbaş kupol” əsli ərəbçə olan \"qübbə\" Türk sözündən) süsləyən çinilərin  məbədin  öz tarixi qədər ilginç, amma gözyaşardan tarixi vardır. Mövzuyla əlaqədar diqqətlə seçilmiş əlyazmaları və çeşidli araşdırmalar təməlində həm dünya, həm də Rus memarlığı anıtının inşa tarixini gözlər önündə canlandıraraq 16-cı yüzilliyin ortalarındakı Moskva Rus dövlətinin sosyal və mədəni ortamını nəqş etmiş Snegirev yazırdı: Kazan fəth edilərkən, daha doğrusu, qanlar içində yox edilərkən  şəhərin bir çox əski cameləri dağıdılmış,   talan olmuşdular.  Cümə məscidi, Nur Ali və bir çox dağılıb xaraba qoyulmuş  camelərin çiniləri qənimət kimi Moskvaya gətirilmiş və birbaşa məbədin tikintisində işlədilmişdir. Əlbəttə, bu daha çox simvolik anlam daşıyırdı! Dirçəldilən  İslam kültürü, yüksələn xristiyanlıq abidəsi idi ... Zəfər və zəfərlərin abidəsi ..."
+        },
+        {
+          "type": "image",
+          "src": "img/blog/Picture4.png",
+          "alt": "Vasil Blajenni Kilsəsi"
+        },
+        {
+          "type": "text",
+          "value": "Daxili məkanın müxtəlif rəngliliyi, parlaq boyaların yaratdığı sehirkar təəssüratlar məhz  əsrarəngiz qübbələrdən başlamaqdadır."
+        },
+        {
+          "type": "image",
+          "src": "img/blog/Picture5.png",
+          "alt": "Vasil Blajenni Kilsəsi"
+        },
+        {
+          "type": "text",
+          "value": "Vasili Blajenni məbədi  (xalq arasında daha çox bu adı ilə tanınır) zəngin və cazibədar, eynən Şərq  nağılları ilə səsləşən xarüqə dekorlarla süslənmişdir. Məbəd  fövqəladə bir memarlıq yadigarı təsiri bıraxır. Rəngli qübbələr, həm içində, həm xarici görünüşündə zəngin dekorativ elementlər, bilərək simetriyası pozulmuş süs və naxışlar  ona bir əsrarəngiz sənət əsəri qiyməti bəxş edir."
+        },
+        {
+          "type": "text",
+          "value": "İndi də öz  əzəməti ilə Qızıl  Meydandakı əski və gözəl abidələrə hegemonluq etməkdə, öz ruhani bir dinclik verici, bayram təsiri yaradan bir tövrü ilə üstün, hakim etkisini sürdürməkdədir."
+        },
+        {
+          "type": "text",
+          "value": "Amma yüzillikləri “yelə verən” bu qocaman abidə heç də yüz illərin tozuna bulaşmış, donuq, ölü bir tarix xatirəsi deyildir. Əksinə, daim öz rənginə, plastikasına, ağırbaşlı görünüşünə görə cilvəli, canlı, daim ruh təzələyən  bir əsər olaraq hər kəsdə  heyrət və heyranlıq oyandırmaqdadır."
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "title": "КОЛОНКА РЕДАКТОРА",
+      "author": "Намик МУРАД",
+      "university": "",
+      "hero-img": "img/blog/hero2.png",
+      "date": "26 июня 2025",
+      "content": [
+        {
+          "type": "text",
+          "value": "«Цель в жизни не в том, чтобы стяжать себе бессмертную славу… Она в том, чтобы превращать каждый день в маленькую вечность» говорил Андре Моруа. Полным ходом идет глобализация — процесс всемирной унификации в экономике, политике и культуре. Это переломный момент, критическая точка развития всего человечества. Как всегда, время перемен приносит с собой дискомфорт от изменения привычных ценностей. «Чтобы ты жил в эпоху перемен» - так проклинали китайцы своих недругов. Сегодня нет былой стабильности отношений между странами, есть проблемы диалога и между людьми. Все мы немного скучаем о старом добром времени, когда дружба народов и интернационализм провозглашались, как краеугольные камни государственной политики. Но, как бы ни менялся мир, слава Богу, есть непреходящие ценности - такие как добро, милосердие, любовь..."
+        },
+        {
+          "type": "text",
+          "value": "Мы хотим служить добру, быть одними из тех, которые превращают мгновения в вечность.\n14 февраля 2002 года мы, небольшая группа редакционной коллегии только что учрежденной общероссийской газеты «Вэтэн» («Родина»), отправились в путь. Это была дорога добра и взаимопонимания. Газета рассказывала российскому читателю об Азербайджане, а также, старалась быть полезной представителям азербайджанской диаспоры в России. Затем, в связи с моим переездом в Азербайджан, выпуск газеты был приостановлен. Сейчас мы решили возобновить издание, но, теперь уже в виде полноцветного журнала. Задача та же: способствовать развитию культурного взаимопонимания полиэтнических и многоконфессиональных народов Азербайджана и России. Эти две страны, во-первых - ближайшие соседи, во-вторых - их объединяет общая история, и в-третьих - есть многочисленная диаспора как россиян в Азербайджане, так и азербайджанцев в России."
+        },
+        {
+          "type": "text",
+          "value": "Пророк Мухаммад (С.А.С.) в священных хадисах показывает нам четкий путь:\n«Один враг - много, а тысяча друзей - мало».\nИ еще:\n«Ближний сосед ближе дальнего родственника».\nМы, как ближайшие соседи, должны лучше знать друг друга, уметь прощать ошибки и благодарить за добрые поступки."
+        },
+        {
+          "type": "text",
+          "value": "Притча:\n«Однажды два друга поспорили, и один из них дал другому пощёчину. Последний, чувствуя боль, но ничего не говоря, написал на песке:\n«Сегодня мой самый лучший друг дал мне пощёчину».\nОни продолжали идти, и нашли оазис, в источнике которого решили искупаться. Тот, который получил пощёчину, стал тонуть, но друг его спас. Когда он пришёл в себя, написал на камне:\n«Сегодня мой самый лучший друг спас мне жизнь».\nТот, кто дал пощёчину и который спас жизнь своему другу, спросил его:\n- Когда я тебя обидел, ты написал на песке, а теперь ты пишешь на камне. Почему?\nДруг ответил:\n- Когда кто-либо нас обижает, мы должны написать это на песке, чтобы ветры могли стереть это. Но когда кто-либо делает что-либо хорошее, мы должны выгравировать это на камне, чтобы никакой ветер не смог бы это стереть».\nТак давайте будем делать побольше добра друг другу и не забывать его, а мелкие обиды - если они будут – постараемся забыть побыстрее. Кстати, сам Бог позаботился об этом. Человек устроен так, что хорошее хранится в памяти дольше, чем плохое. Необходимо помнить: слово может и лечить, и калечить. Пусть наше слово будет всегда лекарством."
+        },
+        {
+          "type": "text",
+          "value": "Говорят, что, как-то один человек спросил у Сократа:\n«Знаешь, что мне сказал о тебе твой друг?\n- Подожди, – остановил его Сократ, – просей сначала то, что собираешься сказать, через три сита.\n- Три сита?\n- Прежде, чем что-нибудь говорить, нужно это трижды просеять. Сначала через сито правды. Ты уверен, что это правда?\n- Нет, я просто слышал это.\nЗначит, ты не знаешь, это правда или нет. Тогда просеем через второе сито – сито доброты. Ты хочешь сказать о моём друге что-то хорошее?\n- Нет, напротив.\n- Значит, – продолжал Сократ, – ты собираешься сказать о нём что-то плохое, но даже не уверен в том, что это правда. Попробуем третье сито – сито пользы. Так ли уж необходимо мне услышать то, что ты хочешь рассказать?\n- Нет, в этом нет необходимости.\n- Итак, – заключил Сократ, – в том, что ты хочешь сказать, нет ни правды, ни доброты, ни пользы. Зачем тогда говорить?»\nМы будем стараться говорить правду, нести доброту и приносить пользу своим читателям."
+        },
+        {
+          "type": "text",
+          "value": "Поверьте, есть очень много хорошего и полезного, о чём можно поговорить. Мы будем обсуждать важные события, историю, литературу, культуру, искусство, спорт, кухню и о многое другое, чтобы быть интересными и полезными нашему читателю. Также, в нашем журнале будет очень много ярких фотографий и иллюстраций – мы понимаем важность визуальной составляющей в нашем деле."
+        },
+        {
+          "type": "text",
+          "value": "Мир меняется. Причем, эти изменения постоянно ускоряются, то есть происходят не линейно, а экспоненциально. Вот о них мы и будем говорить с вами на страницах нашего журнала, будем знакомить вас с уникальной культурой Азербайджана, налаживать контакты Азербайджанцев России с их исторической Родиной. Мы надеемся, что наш журнал будет интересным представителям Азербайджанской диаспоры в России, а также всем тем, кто интересуется Азербайджаном."
+        },
+        {
+          "type": "text",
+          "value": "В добрый путь, дорогие друзья!\nВаш: Намик МУРАД"
+        }
+      ]
+    }
+  ]
+}

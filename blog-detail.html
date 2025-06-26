@@ -1,42 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vatan journal - blogs</title>
+<html lang="zxx">
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/favicon2.ico" />
-        
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
-        
-        <!-- Plugins -->
-        <link rel="stylesheet" href="css/plugins.css" />
-        
-        <!-- Core Style Css -->
-        <link rel="stylesheet" href="css/style.css" />
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="Vatan journal" />
+    <meta name="description" content="Vatan - journal" />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>Vatan journal</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon2.ico" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800" rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blog-detail.css" />
 
 </head>
+
 <body>
 
     <!-- =====================================
-        	==== Start Navbar -->
-    
+    	==== Start Loading -->
+
+    <div class="loading">
+        <div class="text-center middle">
+            <div class="lds-ellipsis">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Loading ====
+    	======================================= -->
+
+
+    <!-- =====================================
+    	==== Start Navbar -->
+
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-    
+
             <!-- Logo -->
-            <a class="logo" href="#" data-scroll-nav="0">
+            <a class="logo" href="index.html">
                 <img style="width: 100px;" src="img/logoes.png" alt="">
                 <span>VƏTƏN</span>
             </a>
-    
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="icon-bar"><i class="fas fa-bars"></i></span>
             </button>
-    
+
             <!-- navbar links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
@@ -56,77 +89,174 @@
             </div>
         </div>
     </nav>
-    
-    <!-- End Navbar ====
-        	======================================= -->
-
-    
     <!-- =====================================
-        ==== Start Blog detail -->
+            ==== End Navbar -->
 
-        <div style="padding: 200px 0;"></div>
-        <h1>hello</h1>
-
-    <!-- End Blog detail ====
-        ======================================= -->
-    
+    <!-- <header class="header valign bg-img" data-scroll-index="0" data-overlay-dark="3" data-background="img/bg_result.jpg"
+                data-stellar-background-ratio="0.5">
             
-    
+                <div class="svg">
+                    <svg x="0px" y="0px" viewBox="0 186.5 1920 113.5">
+                        <polygon points="-30,300 355.167,210.5 1432.5,290 1920,198.5 1920,300"></polygon>
+                    </svg>
+                </div>
+            
+                <div class="container">
+                    <div class="row">
+                        <div class="full-width text-center caption mt-30">
+                            <h1 class="cd-headline clip">
+                                <span>Könlümün sevgili məhbubu mənim, <br>
+                                    Vətənimdir, vətənimdir, vətənim. </span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="arrow bounce" data-scroll-nav="1">
+                    <img src="img/down-chevron.svg" alt="">
+                </div>
+            
+                </header> -->
+    <div class="space" style="height: 200px;"></div>
+    <div class="container blog-container">
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card-blog">
+                    <h2></h2>
+                    <h5></h5>
+                    <img src="" alt="">
+                    <div class="text">
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card-blog">
+                    <h4>Önə çıxanlar</h4>
+                    <div><a class="d-flex align-items-center" href="blog-detail.html?id=1"><img src="img/blog/Picture1.png"
+                                alt=""><span>“Fəth və Zəfər” məbədinin Türk “tərcümeyi-halı”</span></a></div>
+                    <div><a class="d-flex align-items-center" href="blog-detail.html?id=2"><img src="img/blog/hero2.jpg"
+                                alt=""><span>КОЛОНКА РЕДАКТОРА</span></a></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- =====================================
-            ==== Start Footer -->
-    
+            ==== Start Contact -->
+
+    <section class="contact section-padding" data-scroll-index="5">
+        <div class="section-head text-center col-sm-12">
+            <h4>Əlaqə</h4>
+            <!-- <h6>Get In Touch</h6> -->
+        </div>
+        <img style="width: 100%; height: 300px; object-fit: cover;" src="img/buta.png" alt="">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-md-12">
+                    <form class="form" id="contact-form" method="post" action="#">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+
+
+                                <div class="col-md-12">
+
+                                    <!-- <button type="submit" class="butn butn-bg"><span>Send Message</span></button> -->
+                                    <div class="info">
+                                        <span><strong>Email</strong> : <a
+                                                href="mailto:info@vatanjournal.com">info@vatanjournal.com</a></span>
+                                        <span><strong>Ünvan</strong> : Redaksiyanın ünvanı: 424000.RF, Mari El
+                                            Respublikası, Yoshkar-Ola, Petrov küç, 18-a, ofis 144. </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- End Contact ====
+                ======================================= -->
+
+
+    <!-- =====================================
+                ==== Start Footer -->
+
     <footer class="text-center">
         <div class="container">
-    
+
             <!-- Logo -->
             <a class="logo" href="#">
                 Vətən
             </a>
-    
+
             <p>&copy; 2024 Vatan. All Rights Reserved.</p>
-    
+
         </div>
     </footer>
-    
+
     <!-- End Footer ====
-            ======================================= -->
+                ======================================= -->
 
 
-        <!-- jQuery -->
-        <script src="js/jquery-3.0.0.min.js"></script>
-        <script src="js/jquery-migrate-3.0.0.min.js"></script>
-        
-        <!-- popper.min -->
-        <script src="js/popper.min.js"></script>
-        
-        <!-- bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
-        
-        <!-- scrollIt -->
-        <script src="js/scrollIt.min.js"></script>
-        
-        <!-- owl carousel -->
-        <script src="js/owl.carousel.min.js"></script>
-        
-        <!-- images loaded -->
-        <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-        
-        <!-- animated.headline -->
-        <script src="js/animated.headline.js"></script>
-        
-        <!-- jquery.magnific-popup js -->
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        
-        <!-- stellar js -->
-        <script src="js/jquery.stellar.min.js"></script>
-        
-        <!-- isotope.pkgd.min js -->
-        <script src="js/isotope.pkgd.min.js"></script>
-        
-        <!-- validator js -->
-        <script src="js/validator.js"></script>
-        
-        <!-- custom scripts -->
-        <script src="js/scripts.js"></script>
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- popper.min -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- scrollIt -->
+    <script src="js/scrollIt.min.js"></script>
+
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- images loaded -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+    <!-- animated.headline -->
+    <script src="js/animated.headline.js"></script>
+
+    <!-- jquery.magnific-popup js -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- stellar js -->
+    <script src="js/jquery.stellar.min.js"></script>
+
+    <!-- isotope.pkgd.min js -->
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <!-- validator js -->
+    <script src="js/validator.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+
+    <script src="assets/data/datas.js"></script>
+      
 </body>
+
 </html>

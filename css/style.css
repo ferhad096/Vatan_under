@@ -784,6 +784,8 @@ body.theme-dark .contact .info span {
           transform: scale(1.1);
 }
 .blog .item .post-img img {
+  height: 250px;
+  object-fit: cover;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
