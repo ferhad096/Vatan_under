@@ -5,7 +5,7 @@
       "title": "“Fəth və Zəfər” məbədinin Türk “tərcümeyi-halı”",
       "author": "Prof. Dr. Minaxanım Nuriyeva Təkləli",
       "university": "Azərbaycan Dövlət Pedaqoji Universiteti",
-      "hero-img": "img/blog/Picture1.png",
+      "hero-img": "img/blog/blog1/Picture1.png",
       "date": "26 iyun 2025",
       "content": [
         {
@@ -30,7 +30,7 @@
         },
         {
           "type": "image",
-          "src": "img/blog/Picture2.png",
+          "src": "img/blog/blog1/Picture2.png",
           "alt": "Vasil Blajenni Kilsəsi"
         },
         {
@@ -39,7 +39,7 @@
         },
         {
           "type": "image",
-          "src": "img/blog/Picture3.png",
+          "src": "img/blog/blog1/Picture3.png",
           "alt": "Vasil Blajenni Kilsəsi"
         },
         {
@@ -68,7 +68,7 @@
         },
         {
           "type": "image",
-          "src": "img/blog/Picture4.png",
+          "src": "img/blog/blog1/Picture4.png",
           "alt": "Vasil Blajenni Kilsəsi"
         },
         {
@@ -77,7 +77,7 @@
         },
         {
           "type": "image",
-          "src": "img/blog/Picture5.png",
+          "src": "img/blog/blog1/Picture5.png",
           "alt": "Vasil Blajenni Kilsəsi"
         },
         {
@@ -100,7 +100,7 @@
       "title": "КОЛОНКА РЕДАКТОРА",
       "author": "Намик МУРАД",
       "university": "",
-      "hero-img": "img/blog/hero2.png",
+      "hero-img": "img/blog/blog2/hero2.png",
       "date": "26 июня 2025",
       "content": [
         {
@@ -136,6 +136,278 @@
           "value": "В добрый путь, дорогие друзья!\nВаш: Намик МУРАД"
         }
       ]
+    },
+    {
+      "id": 3,
+      "title": "Persona Grata",
+      "subTitle": "“VƏTƏN” DƏRGİSİNİN “PERSONA GRATA” MÜKAFATI TƏQDİM OLUNDU",
+      "author": "",
+      "university": "",
+      "hero-img": "img/blog/blog3/hero.webp",
+      "date": "26 iyun 2025",
+      "content": [
+        {
+          "type": "text",
+          "value": "Ötən gün Bakıda Turan Araşdırmaları Mərkəzinin dəstəyi ilə “Vətən” dərgisinin təsis etdiyi “Persona Grata” döş nişanının təltifetmə mərasimi keçirilmişdir. 1918-ci ilin sentyabrın 15-də Qafqaz İslam Ordusu tərəfindən Bakının qurtuluşu ərəfəsinə təsadüf edən, paytaxtın “İmperator” restoranının konfrans salonunda düzənlənmiş tədbirdə Azərbaycandan və xarici ölkələrdən dəvət olunmuş elm, mədəniyyət, incəsənət xadimləri və media nümayəndələri iştirak etmişdir."
+        },
+        {
+          "type": "text",
+          "value": "Mərasimi giriş sözü ilə açan “Vətən” dərgisinin baş redaktoru, iqtisad üzrə fəlsəfə doktoru Namik Murad tədbir iştirakçılarını salamladı. O, 2002–2007-ci illərdə Rusiyada yayınlanan “Vətən” qəzeti, habelə onun davamı olaraq bu il yenidən nəşrə başlayan eyniadlı dərginin təsis etdiyi “Persona Grata” fəxri döş nişanı haqqında ətraflı məlumat verdi."
+        },
+        {
+          "type": "text",
+          "value": "Məruzədə o da qeyd olundu ki, “Persona Grata” döş nişanı ildə bir dəfə, “Vətən” dərgisi redaksiya heyətinin qərarı ilə üç nominasiya üzrə - humanitar elmlər, dəqiq elmlər və incəsənət sahəsində müstəsna xidmətləri olan və Azərbaycanı xarici ölkələrdə layiqincə tanıdan şəxslərə verilir."
+        },
+        {
+          "type": "text",
+          "value": "Namik Murad daha sonra laureatlara - respublikanın əməkdar elm xadimi, filologiya elmləri doktoru, professor Tofiq Məlikliyə, Nobel Sülh Mükafatı laureatı, MAGATE-nin əməkdaşı fəlsəfə doktoru Bəxtiyar Siracova və rəngkarlıqda \"Opalizm\" üslubunun banisi, Azərbaycanın Xalq rəssamı, professor Sakit Məmmədova fəxri döş nişanlarını və vəsiqələri təqdim etdi."
+        },
+        {
+          "type": "text",
+          "value": "Mərasimdə çıxış edən Bakı Dövlət Universitetinin professoru Vaqif Sultanlı, Azərbaycan Dövlət Pedaqoji Universitetin professoru Minəxanım Nuriyeva Təkəli, Bakı Slavyan Universitetinin professoru Nuridə Novruzova, Azərbaycan Respublikası Prezidenti İşlər İdarəsinin baş məsləhətçisi Rauf Məmmədov, Rusiya Yazıçılar Birliyinin üzvü, şair Eldar Əhədov, \"Şərq-Qərb\" nəşriyyatının direktoru Sevil İsmayılova, Azərbaycan Memarlıq və İnşaat Universitetinin dosenti Akif Hacıyev laureatları təbrik etdi, Azərbaycanın xarici ölkələrdə imicinin formalaşmasında elmin, mədəniyyətin, mətbuatın rolundan, milli birlik ideyalarından söhbət açdılar."
+        },
+        {
+          "type": "text",
+          "value": "Tədbirin sonunda \"Persona Grata\" fəxri döş nişanına layiq görülən Tofiq Məlikli, Bəxtiyar Siracov və Sakit Məmmədov onlara göstərilən etimada görə “Vətən” dərgisinin redaksiya heyətinə, habelə barələrində xoş və səmimi sözlər deyən mərasim iştirakçılarına öz dərin minnətdarlıqlarını bildirdilər."
+        },
+        {
+          "type": "slider",
+          "slides": [
+            {
+              "src": "img/blog/blog3/Persona Grata Tofiq.webp",
+              "alt": "Tofiq Məlikli"
+            },
+            {
+              "src": "img/blog/blog3/Persona Grata Sakit.webp",
+              "alt": "Sakit Məmmədov"
+            },
+            {
+              "src": "img/blog/blog3/Persona Grata Bəxtiyar.webp",
+              "alt": "Bəxtiyar Siracov"
+            },
+            {
+              "src": "img/blog/blog3/nişan 2.webp",
+              "alt": "Persona Grata Nişanı"
+            },
+            {
+              "src": "img/blog/blog3/IMG_5659.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5660.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5663.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5668.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5670.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5674.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5675.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5681.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5684.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5687.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5703.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5711.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5713.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5717.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5723.webp",
+              "alt": ""
+            },
+            {
+              "src": "img/blog/blog3/IMG_5726.webp",
+              "alt": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Поздравления / Təbriklər",
+      "author": "",
+      "university": "",
+      "hero-img": "img/blog/blog4/img1.jpg",
+      "date": "30 iyun 2025",
+      "content": [
+        {
+          "type": "image",
+          "src": "img/blog/blog4/img2.jpeg",
+          "alt": "Təbrik şəkli 1"
+        },
+        {
+          "type": "image",
+          "src": "img/blog/blog4/img3.jpg",
+          "alt": "Təbrik şəkli 2"
+        },
+        {
+          "type": "image",
+          "src": "img/blog/blog4/img4.jpg",
+          "alt": "Təbrik şəkli 3"
+        },
+        {
+          "type": "text",
+          "value": "Абдул Вахед Ниязов."
+        },
+        {
+          "type": "text",
+          "value": "Президент Европейского Мусульмянского Форума."
+        },
+        {
+          "type": "text",
+          "value": "От себя лично и от имени Европейского Мусульманского Форума как платформы, объединяющей лидеров мнения мусульман, которые проживают на территории Большой Европы в 36 странах, сердечно приветствую появление журнала «Вэтэн» и желаю ему лёгкой дороги к своему читателю!"
+        },
+        {
+          "type": "text",
+          "value": "Нет ничего более благородного для любящего свою землю, свою Родину человека, чем приоткрывать её красоту всему окружающему миру. Гордое имя «Вэтэн» обязывает ваш журнал к этой высокой миссии, и я уверен, что она будет вам по плечу."
+        },
+        {
+          "type": "text",
+          "value": "Азербайджан не только братская для нас страна, но и место встречи многих культур и этносов. Без него невозможна симфония Кавказа и Каспия, а для нас особенно важно, что Азербайджан - часть Европы, которая служит вратами в Азию. Это перешеек Запада и Востока: их духовного, интеллектуального и материального наследия."
+        },
+        {
+          "type": "text",
+          "value": "Благодаря просветительским усилиям главного редактора журнала, Намика Мурада, всё то, что придаёт Азербайджану неповторимость и своеобычие, теперь становится ближе и понятнее широкой русскоязычной публике. Надеюсь, что в будущем и гораздо более обширная аудитория – европейская – откроет для себя шум волн азербайджанской истории, изумившись тому, сколь богата сокровищница культуры трудолюбивого, талантливого Азербайджанского народа. Абдул Вахед Ниязов. Президент Европейского Мусульмянского Форума."
+        },
+
+        {
+          "type": "image",
+          "src": "img/blog/blog4/img5.jpg",
+          "alt": "Təbrik şəkli 5"
+        },
+        {
+          "type": "image",
+          "src": "img/blog/blog4/img6.png",
+          "alt": "Təbrik şəkli 6"
+        },
+
+        {
+          "type": "text",
+          "value": "Qasım KƏRİMOV."
+        },
+        {
+          "type": "text",
+          "value": "“Razvitiye” - Azərbaycanlıların Regionlararası Alyansı” İctimai Birliyinin şura sədri."
+        },
+        {
+          "type": "text",
+          "value": "Курск."
+        },
+
+        {
+          "type": "text",
+          "value": "SSRİ dövründə və ondan öncə azərbaycanlılar Rusiya xalqları ilə vahid bir ölkədə yaşasalar da, 1991-ci ildən sonra Dərbənd və ətraf ərazidə avtoxton soydaşlarımız xaric, digər azərbaycanlılar Rusiyadakı çoxsaylı diasporumuzu təşkil etdilər. Rusiyadakı azərbaycanlılar tarix boyu öz milli kimliklərini qorumaqla yanaşı, yaşadığı ölkənin layiqli vətəndaşları olublar. Təkcə onu qeyd etmək kifayətdir ki, Böyük Vətən Müharibəsi illərində faşizmlə mübarizədə azərbaycanlılar qəhrəmancasına savaşmış, 300 mindən çox Azərbaycan əsgəri, zabiti və generalı öz canlarını qurban vermişlər. Biz, Rusiyada yaşayan azərbaycanlılar onların əziz xatirəsini həmişə yad edirik."
+        },
+        {
+          "type": "text",
+          "value": "Bu gün Azərbaycan və Rusiya dövlətləri arasında dostluq və strateji əməkdaşlıq əlaqələri inkişaf edir. Rusiyada yaşayan azərbaycanlılar ölkənin sosial-iqtisadi həyatında daha önəmli rol oynamağa layiq intellektual, mədəni və iqtisadi potensiala sahibdirlər. Ümüdvaram ki, yenidən fəaliyyətə başlayan “Vətən” jurnalı millət və ölkə üçün faydalı olacaq, Rusiyada yaşayan azərbaycanlıların vahid informasiya məkanına sahib olmasına öz töhfəsini verəcək."
+        },
+        {
+          "type": "text",
+          "value": "Mən öz adımdan və “Razvitiye” - Azərbaycanlıların Regionlararası Alyansı” İctimai Birliyi adından “Vətən” jurnalının baş redaktoru Namik MURADA və onun rəhbərlik etdiyi redaksiya heyətinə bu alicənab işdə uğurlar arzulayıram."
+        },
+
+        {
+          "type": "image",
+          "src": "img/blog/blog4/img7.png",
+          "alt": "Təbrik şəkli 7"
+        },
+
+        {
+          "type": "text",
+          "value": "Sevil İSMAYILOVA."
+        },
+        {
+          "type": "text",
+          "value": "“Şərq-Qərb” nəşriyyatının direktoru."
+        },
+        {
+          "type": "text",
+          "value": "Bakı."
+        },
+
+        {
+          "type": "text",
+          "value": "Vətəndən kənarda Azərbaycanı təbliğ edən istənilən bir nəşrin hazırlanması, Azərbaycan adına atılan istənilən bir xeyirxah addım vətənsevərlərə ancaq böyük sevinc hissi bəxş edə bilər. Çünki bizim hər birimizin Vətəndə, yaxud ondan kənarda yaşamağımızdan asılı olmayaraq, onun qarşısında mənəvi borcumuz, yerinə yetirməli olduğumuz missiyamız var və biz bunun fərqindəyik."
+        },
+        {
+          "type": "text",
+          "value": "“Vətən” adlı bir jurnalın hazırlandığını eşidəndə həyatını kitab nəşrinə həsr edən bir ziyalı kimi çox sevindim. Əminəm ki, bu jurnal Rusiyada, xüsusilə də, Moskvada yaşayan azərbaycanlılar üçün çox əhəmiyyətli olacaq. Təkcə təbliğat baxımından deyil, eyni zamanda da Vətənin havasını, ruhunu, mədəniyyətini və s. özündə daşıyacağına görə. Çünki qürbətdə yaşayanlar üçün Vətənin izini, Vətənin sözünü əks etdirən hər bir nəşr əvəzolunmaz dəyər deməkdir."
+        },
+        {
+          "type": "text",
+          "value": "“Şərq-Qərb” ASC adından belə bir əhəmiyyətli işə cəhd göstərənləri, xüsusilə, “Vətən” jurnalının baş redaktoru Namik MURADI təbrik edir, eyni zamanda da hər cür köməyimizi əsirgəməyəcəyimizə söz veririk. Ən azından, Azərbaycan kitab nəşri və çapı sahəsində öz yeri, öz xidmətləri olan və bir çox mədəniyyət, sənət, ədəbiyyat adamlarının yolunun kəsişdiyi bir müəssisə kimi “Vətən”in al- əlvan, zəngin bir jurnal kimi çap edilməsinə biz də öz töhfələrimizi verə bilərik. İnanırıq ki, “Vətən” qürbətdə yaşayan Vətən övladları ilə Azərbaycan arasında möhkəm, davamlı və uzunömürlü bir körpü olacaq."
+        },
+
+        {
+          "type": "image",
+          "src": "img/blog/blog4/img8.JPG",
+          "alt": "Təbrik şəkli 8"
+        },
+
+        {
+          "type": "text",
+          "value": "Sevinc İSAYEVA."
+        },
+        {
+          "type": "text",
+          "value": "Kazan Federal Universitetinin məzunu."
+        },
+        {
+          "type": "text",
+          "value": "Kazan."
+        },
+
+        {
+          "type": "text",
+          "value": "Uşaq yaşlarımda valideynlərim mənə yaşadığım ölkəyə layiqli vətəndaş olmaqla yanaşı, milli dəyərlərimizə sevgi öyrədirdilər. Bu mənada o zaman nəşr olunan «Vətən» qəzetini oxuyur, ana vətəndən xəbərlər alır, ana dilimizdə ədəbiyyat və incəsənət nümunələri ilə tanış olurdum. Qəzetin baş redaktoru Namik müəllimin atamla səmimi dostluq münasibətləri var idi. O, tez-tez bizə qonaq gəlirdi və mən atamın Namik müəllimlə söhbətlərinə qulaq asmaqdan zövq alırdım. Bəlkə mənim sonradan şərqşünas ixtisasını şeçməmdə bu amillərin də rolu olmuşdur."
+        },
+        {
+          "type": "text",
+          "value": "«Vətən»in öz fəaliyyətini rəngli jurnal formatında bərpa etməsi xəbərini mən məmnuniyyətlə qarşıladım. Əminəm ki, jurnal Rusiyada yaşayan Azərbaycanlı gənclərə faydalı yazılar təqdim edəcək, dilimizin və mədəniyyətimizin təbliğ olunmasına öz töhfəsini verəcək."
+        },
+        {
+          "type": "text",
+          "value": "Uğurlar, «Vətən»!"
+        }
+      ]
     }
+    
+    
   ]
 }

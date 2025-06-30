@@ -72,3 +72,26 @@
       padding: 0;
     }
   }
+
+  .swiper{
+    .swiper-slide{
+      text-align: center;
+    }
+    img{
+      width: 100% !important;
+    }
+  } 
+  .swiper-pagination-bullet{
+    background: #000;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    color: #000;
+  }
+  @media(min-width:900px){
+    .swiper{
+      img{
+        width: auto;
+        height: 300px;
+      }
+    }
+  }
