@@ -560,8 +560,8 @@ body.theme-dark .contact .info span {
 .header .caption .o-hidden {
   display: inline-block;
 }
-.header .caption h1 {
-  font-size: 55px;
+.header .caption h2 {
+  font-size: 3.5rem;
   font-weight: 800;
 }
 .header .arrow {
@@ -618,7 +618,8 @@ body.theme-dark .contact .info span {
 .hero .content {
   padding-left: 50px;
 }
-.hero .content h2 {
+.hero .content h1 {
+  font-size: 2.5rem;
   margin-bottom: 10px;
   text-align: center;
 }
